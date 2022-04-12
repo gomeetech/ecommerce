@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gomee\\Ecomerce\\": "src/app/"
+            "Gomee\\Ecommerce\\": "src/app/"
         },
         "files": [
             "src/helpers/__load__.php"
