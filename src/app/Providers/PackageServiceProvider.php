@@ -1,6 +1,6 @@
 <?php
 
-namespace Gomee\Ecomerce\Providers;
+namespace Gomee\Ecommerce\Providers;
 
 use Gomee\Core\System;
 use Illuminate\Support\ServiceProvider;
