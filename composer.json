@@ -35,7 +35,7 @@
         },
         "laravel": {
             "providers": [
-                "Gomee\\Ecommerce\\Providers\\ModuleServiceProvider"
+                "Gomee\\Ecommerce\\Providers\\PackageServiceProvider"
             ]
         }
     }
