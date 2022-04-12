@@ -1,0 +1,8 @@
+{
+    "name": "Gomee E-ccomerce",
+    "description": "Mô dule thương mại diện tử",
+    "package": "ecommerce",
+    "require": {
+        "core": "1.0"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "gomee_business",
+    "author": {
+        "name": "Do\u00e3n LN",
+        "email": "doanln16@gmail.com",
+        "url": "http:\/\/doanl2.chinhlatoi.vn"
+    },
+    "exports": {
+        "database": [],
+        "views": [],
+        "assets": [],
+        "providers": []
+    }
+}
