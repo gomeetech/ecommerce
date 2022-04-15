@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eedf7f3ee2329e33ce6ed42ed5b9559c",
+    "content-hash": "71f6e169a5684dc5f5d4ecba56e085ab",
     "packages": [
         {
             "name": "brick/math",
@@ -514,12 +514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomeetech/core.git",
-                "reference": "8e5c86d1a6f1aa4cd39fc82a00120e3d67be4c95"
+                "reference": "cc02dc66d97d964c926faf8ffa733b6b5f7d0bd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomeetech/core/zipball/8e5c86d1a6f1aa4cd39fc82a00120e3d67be4c95",
-                "reference": "8e5c86d1a6f1aa4cd39fc82a00120e3d67be4c95",
+                "url": "https://api.github.com/repos/gomeetech/core/zipball/cc02dc66d97d964c926faf8ffa733b6b5f7d0bd2",
+                "reference": "cc02dc66d97d964c926faf8ffa733b6b5f7d0bd2",
                 "shasum": ""
             },
             "require": {
@@ -562,7 +562,7 @@
                 "issues": "https://github.com/gomeetech/core/issues",
                 "source": "https://github.com/gomeetech/core/tree/main"
             },
-            "time": "2022-04-12T17:01:42+00:00"
+            "time": "2022-04-14T10:36:19+00:00"
         },
         {
             "name": "gomeetech/dev",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomeetech/dev.git",
-                "reference": "f8f1b8ee8f26868849c7f7028fe1d10cbb50c8df"
+                "reference": "e109d2e88c6bd4ab7ee368904d4e60f8b55d11d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomeetech/dev/zipball/f8f1b8ee8f26868849c7f7028fe1d10cbb50c8df",
-                "reference": "f8f1b8ee8f26868849c7f7028fe1d10cbb50c8df",
+                "url": "https://api.github.com/repos/gomeetech/dev/zipball/e109d2e88c6bd4ab7ee368904d4e60f8b55d11d0",
+                "reference": "e109d2e88c6bd4ab7ee368904d4e60f8b55d11d0",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +608,7 @@
                 "issues": "https://github.com/gomeetech/dev/issues",
                 "source": "https://github.com/gomeetech/dev/tree/main"
             },
-            "time": "2022-04-12T04:41:43+00:00"
+            "time": "2022-04-14T11:10:16+00:00"
         },
         {
             "name": "graham-campbell/result-type",
