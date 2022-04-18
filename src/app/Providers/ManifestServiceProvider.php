@@ -30,6 +30,17 @@ class ManifestServiceProvider extends ServiceProvider
             ]
         ]);
 
+    }
+
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->loadViewsFrom(__DIR__ . '/../../views', 'ecommerce');
+        
 
 
         if ($this->app->runningInConsole()) {
@@ -44,15 +55,5 @@ class ManifestServiceProvider extends ServiceProvider
             ], 'ecommerce-views');
 
         }
-    }
-
-    /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        $this->loadViewsFrom(__DIR__ . '/../../views', 'ecommerce');
     }
 }
