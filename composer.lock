@@ -514,12 +514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomeetech/core.git",
-                "reference": "b8a5347cf559a995021165103eb33a604482519f"
+                "reference": "0cde6c4f1d493282de0e3c8deb6c09745de78c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomeetech/core/zipball/b8a5347cf559a995021165103eb33a604482519f",
-                "reference": "b8a5347cf559a995021165103eb33a604482519f",
+                "url": "https://api.github.com/repos/gomeetech/core/zipball/0cde6c4f1d493282de0e3c8deb6c09745de78c55",
+                "reference": "0cde6c4f1d493282de0e3c8deb6c09745de78c55",
                 "shasum": ""
             },
             "require": {
@@ -561,7 +561,7 @@
                 "issues": "https://github.com/gomeetech/core/issues",
                 "source": "https://github.com/gomeetech/core/tree/main"
             },
-            "time": "2022-04-18T15:50:46+00:00"
+            "time": "2022-04-18T16:17:25+00:00"
         },
         {
             "name": "gomeetech/dev",
