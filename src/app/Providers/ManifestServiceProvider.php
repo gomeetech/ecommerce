@@ -25,6 +25,9 @@ class ManifestServiceProvider extends ServiceProvider
                     'test' => 'test.php'
                 ]
             ],
+            'menus' => [
+                'admin' => ['test.json']
+            ]
         ]);
 
 
