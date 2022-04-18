@@ -33,7 +33,7 @@ class ManifestServiceProvider extends ServiceProvider
 
 
         if ($this->app->runningInConsole()) {
-            // $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+            $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
 
             $this->publishes([
                 __DIR__ . '/../../database/migrations' => database_path('migrations'),
@@ -53,7 +53,6 @@ class ManifestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
         $this->loadViewsFrom(__DIR__ . '/../../views', 'ecommerce');
     }
 }
