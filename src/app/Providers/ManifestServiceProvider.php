@@ -29,7 +29,7 @@ class ManifestServiceProvider extends ServiceProvider
                 'admin' => ['test.json']
             ]
         ]);
-        $this->loadViewsFrom(__DIR__ . '/../../views', 'ecommerce');
+
 
 
         if ($this->app->runningInConsole()) {
@@ -43,18 +43,6 @@ class ManifestServiceProvider extends ServiceProvider
                 __DIR__ . '/../../views' => base_path('resources/views/vendor/ecommerce'),
             ], 'ecommerce-views');
 
-
-            // $this->publishes([
-            //     __DIR__.'/../config/passport.php' => config_path('passport.php'),
-            // ], 'passport-config');
-
-            // $this->commands([
-            //     Console\InstallCommand::class,
-            //     Console\ClientCommand::class,
-            //     Console\HashCommand::class,
-            //     Console\KeysCommand::class,
-            //     Console\PurgeCommand::class,
-            // ]);
         }
     }
 
@@ -66,5 +54,6 @@ class ManifestServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->loadViewsFrom(__DIR__ . '/../../views', 'ecommerce');
     }
 }
